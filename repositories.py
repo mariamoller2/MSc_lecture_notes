@@ -17,8 +17,8 @@ GROUP_REPOS = [
         "group c",
         "group c",
         ["https://github.com/jskoven/Devops2026_jklo_jakst_aing_asjo_mbln"],
-        "http://161.35.68.148:5001",
-        "http://161.35.68.148:5001",
+        "http://161.35.68.148:80",
+        "http://161.35.68.148:80",
     ],
     [
         "group d",
