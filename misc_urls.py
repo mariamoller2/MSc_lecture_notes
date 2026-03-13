@@ -3,7 +3,7 @@ GROUP_URLS = [
         "group a",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "https://zerodt.live/grafana/",
         # Logging URL:
         "<logging_url>",
     ],
@@ -25,11 +25,9 @@ GROUP_URLS = [
     ],
     [
         "group d",
-        "Mixed",
+        "<name>",
         # Monitoring URL:
-        # This Grafana instance is currently running on a VM that we set up for staging, so it is not showing the metrics from the real simulator.
-        # Once we have all of the components ready, we'll apply it to the production server and update the URL here accordingly.
-        "http://134.122.71.241:3000/public-dashboards/755d9f514e484aa6b762b721edb282fb",
+        "<monitoring_url>",
         # Logging URL:
         "<logging_url>",
     ],
@@ -123,9 +121,9 @@ GROUP_URLS = [
     ],
     [
         "group o",
-        "<name>",
+        "Rollback and Relax",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://ec2-13-51-198-31.eu-north-1.compute.amazonaws.com:3001/",
         # Logging URL:
         "<logging_url>",
     ],
