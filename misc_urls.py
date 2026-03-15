@@ -107,9 +107,9 @@ GROUP_URLS = [
     ],
     [
         "group m",
-        "<name>",
+        "Jackhammers",
         # Monitoring URL:
-        "<monitoring_url>",
+        "178.104.27.224:3000",
         # Logging URL:
         "<logging_url>",
     ],
