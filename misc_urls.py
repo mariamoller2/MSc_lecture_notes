@@ -11,7 +11,7 @@ GROUP_URLS = [
         "group b",
         "catch(RuntimeException){goto f;}",
         # Monitoring URL:
-        "http://164.92.186.201:3000",
+        "http://164.92.186.201:5001/grafana",
         # Logging URL:
         "<logging_url>",
     ],
