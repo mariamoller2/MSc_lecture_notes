@@ -3,36 +3,28 @@ GROUP_URLS = [
         "group a",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "https://zerodt.live/grafana/",
         # Logging URL:
         "<logging_url>",
     ],
     [
         "group b",
-        "Carl⏰",
+        "catch(RuntimeException){goto f;}",
         # Monitoring URL:
-        http://165.227.170.149:3000
+        "http://164.92.186.201:3000",
         # Logging URL:
         "<logging_url>",
     ],
     [
         "group c",
-        "YouCanCMe",
+        "group c",
         # Monitoring URL:
-        "https://srv1039100.tail89935c.ts.net:10000",
+        "161.35.68.148:3000",
         # Logging URL:
         "<logging_url>",
     ],
     [
         "group d",
-        "Mixed",
-        # Monitoring URL:
-        "http://46.101.201.186:3000/public-dashboards/20c9bf97ebb94fccb4e1952a5551fb21",
-        # Logging URL:
-        "<logging_url>",
-    ],
-    [
-        "group e",
         "<name>",
         # Monitoring URL:
         "<monitoring_url>",
@@ -40,10 +32,18 @@ GROUP_URLS = [
         "<logging_url>",
     ],
     [
-        "group f",
-        "Group 1",
+        "group e",
+        "Group E Dashboard Minitwit",
         # Monitoring URL:
-        "http://46.101.231.189:3000/d/minitwit-dashboard/itu-minitwit-production?orgId=1&from=now-1h&to=now&timezone=browser&refresh=30s",
+        "http://209.38.209.29:3000/dashboards",
+        # Logging URL:
+        "<logging_url>",
+    ],
+    [
+        "group f",
+        "if time > 16 {beer++;}",
+        # Monitoring URL:
+        "http://209.38.255.154:3000",
         # Logging URL:
         "<logging_url>",
     ],
@@ -51,7 +51,7 @@ GROUP_URLS = [
         "group g",
         "<name>",
         # Monitoring URL:
-        "http://142.93.169.145:3000",
+        "<monitoring_url>",
         # Logging URL:
         "<logging_url>",
     ],
@@ -65,6 +65,14 @@ GROUP_URLS = [
     ],
     [
         "group i",
+        "I Terroni",
+        # Monitoring URL:
+        "http://164.92.231.30:3000/",
+        # Logging URL:
+        "<logging_url>",
+    ],
+    [
+        "group j",
         "<name>",
         # Monitoring URL:
         "<monitoring_url>",
@@ -72,18 +80,10 @@ GROUP_URLS = [
         "<logging_url>",
     ],
     [
-        "group j",
-        "Chirp Vee2",
-        # Monitoring URL:
-        "http://157.245.27.199:3000",
-        # Logging URL:
-        "<logging_url>",
-    ],
-    [
         "group k",
-        "DevBobs",
+        "Pat Myaz",
         # Monitoring URL:
-        "http://209.38.230.113:3000/",
+        "http://209.38.114.224:3000/dashboards",
         # Logging URL:
         "<logging_url>",
     ],
@@ -97,17 +97,17 @@ GROUP_URLS = [
     ],
     [
         "group l",
-        "Deploy and pray",
+        "<name>",
         # Monitoring URL:
-        "http://161.35.211.34:3000/login",
+        "<monitoring_url>",
         # Logging URL:
         "<logging_url>",
     ],
     [
         "group m",
-        "Jackhammers",
+        "<name>",
         # Monitoring URL:
-        "http://178.104.27.224:3000",
+        "<monitoring_url>",
         # Logging URL:
         "<logging_url>",
     ],
@@ -115,23 +115,23 @@ GROUP_URLS = [
         "group n",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://168.119.126.80:3001/public-dashboards/0815730723d84ddc8ce543f765e51bc6",
         # Logging URL:
         "<logging_url>",
     ],
     [
         "group o",
-        "<name>",
+        "Rollback and relax",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://ec2-16-171-31-204.eu-north-1.compute.amazonaws.com:3001/dashboards",
         # Logging URL:
         "<logging_url>",
     ],
     [
         "group p",
-        "<name>",
+        "EastTOps",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://164.90.229.101:3000/dashboards",
         # Logging URL:
         "<logging_url>",
     ]
