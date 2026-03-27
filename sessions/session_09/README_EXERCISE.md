@@ -1,10 +1,8 @@
 
-## A Basic Reliable Web Service with Docker Swarm
+# A Basic Reliable Web Service with Docker Swarm
 
 Follow the following tutorial to deploy a Swarm
 
-
-# Interactive 
 
 ### CLI Deployment of A Docker Swarm cluster on DigitalOcean
 

@@ -318,9 +318,8 @@ Distributing data and computation across machines solves the congestion problem.
 
 ## Replicating Services
 
-Load Balancing = **Distributing traffic to — and computation across — multiple replicated servers**
 
-- Ensures no single server bears too much demand
+**Load balancing** = distributing incoming requests across multiple servers so that no single server is overwhelmed
 - Improves responsiveness
 - Adds redundancy: if one replica goes down, others can take over
 
@@ -336,18 +335,18 @@ Image from: [Horizontally Scaling PHP Applications](https://blog.digitalocean.co
 ---
 ### Redundant Load Balancer Setup
 
-How to make the balancer not anymore a single point of failure: [Heartbeat and Floating IP](https://www.digitalocean.com/community/tutorials/how-to-create-a-high-availability-setup-with-heartbeat-and-floating-ips-on-ubuntu-16-04))
+How to make the balancer not anymore a single point of failure: [Heartbeat and Floating IP](https://www.digitalocean.com/community/tutorials/how-to-create-a-high-availability-setup-with-heartbeat-and-floating-ips-on-ubuntu-16-04)
 
 [![600](images/ha-diagram-animated.gif)](https://assets.digitalocean.com/articles/high_availability/ha-diagram-animated.gif)
 
-- [Floating IP](https://blog.digitalocean.com/floating-ips-start-architecting-your-applications-for-high-availability/)  (Reserved IP since 2022)
+- [Floating IP](https://blog.digitalocean.com/floating-ips-start-architecting-your-applications-for-high-availability/)  (named *reserved IP* in recent years)
 	 - DigitalOcean name for static IPs
 	 - Equivalents on other platforms, e.g. Elastic IPs @ Amazon
 - Keepalived - daemon used for health check
 
 
 
-Where to read more about this setup
+Read more about this setup:
 - [Load Balancing as a Service on DO](https://blog.digitalocean.com/load-balancers-simplifying-high-availability/)
 - [HAProxy with Keepalived on Ubuntu](https://kifarunix.com/configure-highly-available-haproxy-with-keepalived-on-ubuntu-20-04)
 
@@ -355,11 +354,13 @@ Where to read more about this setup
 
 ### Limitations of load balancing
 
-Load balancing and replication solve traffic distribution and SPF, but they don't manage the fleet. As the number of nodes grows, who...
-- ... spins up new services when one crashes?
-- ... decides which node runs which service?
-- ... handles rolling out updates without downtime?
-- ... scales up or down based on demand?
+Load balancing and replication **solve traffic distribution and SPF**, but they don't **manage the fleet**. 
+
+As the number of nodes grows, who...
+- ... spins up **new services when one crashes**?
+- ... **decides which node runs which service**?
+- ... handles **rolling out updates without downtime**?
+- ... **scales up or down based on demand**?
 
 That's what **container orchestration** adds on top of load balancing.
 
@@ -459,7 +460,8 @@ To think about:
 ![500](images/replicated_vs_global.png)
 
 
-Good examples of global service? A **log shipper** or a **monitoring container**. It is important to ensure that the service is running on every node. By deploying the service as a global service, you can ensure that every node in the cluster has a copy of the service running, which can collect data from that node and forward it to a centralized location.
+##### Good examples of global service? A **log shipper** or a **monitoring container**. 
+It is important to ensure that the service is running on every node. By deploying the service as a global service, you can ensure that every node in the cluster has a copy of the service running, which can collect data from that node and forward it to a centralized location.
 
 
 #### 4. Task
