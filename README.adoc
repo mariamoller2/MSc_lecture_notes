@@ -116,9 +116,9 @@ link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/sessio
 |14/4
 |8:00 - 12:00
 |
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/IaC.pdf[Docker Swarm and Infrastructure as Code Revisited]
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/README_EXERCISE.md[MiniTwit Infrastructure as Code]
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/README_TASKS.md[Encode your infrastructure setup]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/Slides.md[Docker Swarm and Infrastructure as Code Revisited]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/README_EXERCISE.md[MiniTwit on Docker Swarm and Infrastructure as Code]]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/README_TASKS.md[IaC]
 // w17
 |12
 |21/4

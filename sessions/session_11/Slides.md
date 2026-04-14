@@ -805,6 +805,16 @@ Kubernetes, the industry standard to solve Google size problems is more complex:
 
 ---
 
+### Do I need all of this?
+
+In Denmark, in in an SMV world, the answer is likely: No.
+
+<img src="https://stevehanov.ca/blog/images/95f16b3dbf861a9156cb2c6d1be39f5e2fcfc1b1f4c5f11ee6f9e182bd4c5f5a.png" width="100%">
+
+See, e.g., [S. Hanov _"How I run multiple $10K MRR companies on a $20/month tech stack"_](https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack)
+
+---
+
 #### Example, _ITU-MiniTwit_ on a Local Docker Swarm
 
 Definition of a cluster of local virtual machine nodes in [`Vagrantfile`](https://github.com/itu-devops/itu-minitwit-docker-swarm/blob/local_swarm/Vagrantfile)
