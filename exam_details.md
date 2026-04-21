@@ -9,6 +9,22 @@ The exam has an internal censor and the grade is Pass/Fail.
 All of the following sections are requirements.
 That is, you have to do something about each of them.
 
+- [1.) Assure Information Correctness](#1-assure-information-correctness)
+- [2.) Polish Project Repositories and Documentation](#2-polish-project-repositories-and-documentation)
+  - [2.1.) Create a `.mailmap` file in the root of your repositories](#21-create-a-mailmap-file-in-the-root-of-your-repositories)
+  - [2.2.) Create Four Videos Demonstrating your _ITU-MiniTwit_ System in Production](#22-create-four-videos-demonstrating-your-itu-minitwit-system-in-production)
+  - [2.3.) Update the main readme file](#23-update-the-main-readme-file)
+- [3.) Write a Report](#3-write-a-report)
+  - [3.1.) Formal Requirements](#31-formal-requirements)
+  - [3.2) What to include in the report?](#32-what-to-include-in-the-report)
+    - [System's Perspective](#systems-perspective)
+    - [Process' perspective](#process-perspective)
+    - [Reflection Perspective](#reflection-perspective)
+    - [Use of Generative AI](#use-of-generative-ai)
+  - [3.3) How to hand-in?](#33-how-to-hand-in)
+
+------------------------------------------------------------------------------------------------------------------------
+
 
 ### 1.) Assure Information Correctness
 
@@ -19,7 +35,7 @@ That is, you have to do something about each of them.
 
 ### 2.) Polish Project Repositories and Documentation
 
-#### 2.1.) Create a `.mailmap` file in the root of your repositories.
+#### 2.1.) Create a `.mailmap` file in the root of your repositories
 
 [Git mailmap](https://git-scm.com/docs/gitmailmap) is a tool to map author's names or e-mail addresses to single proper values.
 
@@ -110,17 +126,14 @@ Store the animated GIF file in your Git repositories in a directory `report/imag
 **a) Monitoring Dashboards in Action**: Create a screen recording that provides an overview over all your monitoring dashboards from the production system.
 That is, demonstrate that the monitoring information in the dashboards changes over time, the more data is received from the simulator.
 
-**b) Logging Dashboards in Action** Create another screen recording that provides an overview over all your logging dashboards from the production system.
+**b) Logging Dashboards in Action**: Create another screen recording that provides an overview over all your logging dashboards from the production system.
 That is, demonstrate that the logging information in the dashboards changes over time, the more data is received from the simulator.
 
-**c) IaC in Action**
-
-Create a third screen recording that shows your infrastructure as code, configuration management in action.
+**c) IaC in Action**: Create a third screen recording that shows your infrastructure as code, configuration management in action.
 This video should demonstrate that infrastructure can be spun-up from scratch and that it is configured accordingly.
 That is, something like `vagrant up` from your command line or a CI/CD pipeline.
 
-**d) CI/CD in Action**
-
+**d) CI/CD in Action**:
 With infrastructure up and running, this last video should demonstrate how a change that is implemented in a feature branch, is deployed to production after traversing your CI/CD pipeline.
 That is, this video should start from checking out your code repository and applying a tiny change in a feature branch, how that change is pushed to the repository, how it is picked up by the CI/CD pipeline, i.e., tested and automatically deployed to production.
 
@@ -219,7 +232,7 @@ For your report that means that you have to state which generative AI tools have
 Additionally, describe _how_ generative AI tools have been used and briefly reflect and discuss how they supported or hindered your work process.
 
 
-### 3.2.3) How to hand-in?
+### 3.3) How to hand-in?
 
 Send a pull request to the final release of your _ITU-MiniTwit_, which includes your complete report in source form and built PDF too, to the file [`final_report_urls.py`](https://github.com/itu-devops/BSc_lecture_notes/blob/master/final_report_urls.py) in https://github.com/itu-devops/BSc_lecture_notes.
 
