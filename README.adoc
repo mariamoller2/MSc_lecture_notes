@@ -148,7 +148,7 @@ link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/sessions/sessio
 |
 |*Guest Lecture: "Kubernetes is too complex for startups. WRONG!" by Dag and Zander*, link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/REPORT.md[Exam prep.]
 |Exam Q&A from TA Perspective
-|*Simulator stops*. Write report.
+|Write report.
 // w19
 |14
 |8/5
@@ -157,7 +157,7 @@ link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/sessions/sessio
 |
 |link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/sessions/session_14/Slides.md[Exam prep., Thesis topics, Evaluation, Cookies :)]
 |
-|Write report.
+|*Simulator stops*. Write report.
 |=======================================================================
 
 * Exam submission: Latest Monday *18/5/2026 14:00* via WISEflow

@@ -108,7 +108,7 @@ LLM <none> Gemini 3 Pro
 Make sure that the main readme files in the root of your repositories are up-to-date and correct.
 Likely, these are called `README.md`.
 All information in there has to be correct.
-They should contain a short description of the project, how to work with it, how to spin up a production system, how to contribute changes into a production, the animated GIFs from above, etc.
+They should contain a short description of the project, how to work with it, how to spin up a production system, how to contribute changes into a production, etc.
 
 Check [here](https://www.makeareadme.com/#suggestions-for-a-good-readme) and [here](https://medium.com/@fulton_shaun/readme-rules-structure-style-and-pro-tips-faea5eb5d252) for recommendations on the structure and contents of readme files.
 
@@ -139,8 +139,6 @@ The naming convention for the PDF file is (as regular expression): `MSc_group_[a
 That is, valid file names are, e.g., `MSc_group_a.pdf`, `MSc_group_e.pdf`, etc.
 
 Make sure that you link all artifacts that you consider constitutional to your projects together with short descriptions of the linked artifacts from your reports, i.e., link all necessary repositories, issue trackers, monitoring/logging systems, etc.
-
-Since this is a group project and the report is written by a group make sure to indicate for each section the respective author(s).
 
 Note, in case you are writing your report with LaTeX, you might want to write it avoiding Overleaf.
 Instead, for local writing, install a LaTex compiler with respective tools and edit LaTeX sources with a text editor of your choice.
