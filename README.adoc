@@ -160,7 +160,7 @@ link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/sessions/sessio
 |Write report.
 |=======================================================================
 
-* Exam submission: Latest Friday *18/5/2026 14:00* via WISEflow
+* Exam submission: Latest Monday *18/5/2026 14:00* via WISEflow
 * Exam period: 1/6/2026 to 4/6/2026
 
 
